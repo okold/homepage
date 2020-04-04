@@ -14,6 +14,11 @@ body {
     left: -100em;
 }
 
+/* Return to top */
+p#return {
+    margin-top: 1rem;
+}
+
 main {
     margin-top: 2rem;
 }
@@ -24,11 +29,6 @@ section, article, #languages {
 
 #buttons {
     padding-top: 1rem;
-}
-
-/* Return to top */
-p#return {
-    margin-top: 2rem;
 }
 
 iframe {
