@@ -9,6 +9,11 @@ body {
     --link-hover-colour: #2294ff;
 }
 
+#skipnav {
+    position: absolute;
+    left: -100em;
+}
+
 main {
     margin-top: 2rem;
 }
@@ -19,10 +24,6 @@ section, article, #languages {
 
 #buttons {
     padding-top: 1rem;
-}
-
-p {
-    text-align: justify;
 }
 
 /* Return to top */
