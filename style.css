@@ -13,7 +13,7 @@ main {
     margin-top: 2rem;
 }
 
-section, #languages {
+section, article, #languages {
     padding-bottom: 2rem;
 }
 
@@ -28,6 +28,14 @@ p {
 /* Return to top */
 p#return {
     margin-top: 2rem;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+#video {
+    margin: 2rem 0rem 1rem 0rem;
 }
 
 /* Sticky footer styles
