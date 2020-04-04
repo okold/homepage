@@ -13,8 +13,12 @@ main {
     margin-top: 2rem;
 }
 
-h2 h4 {
-    text-align: center;
+section, #languages {
+    padding-bottom: 2rem;
+}
+
+#buttons {
+    padding-top: 1rem;
 }
 
 p {
