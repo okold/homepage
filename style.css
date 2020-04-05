@@ -17,6 +17,7 @@ body {
 /* Return to top */
 p#return {
     margin-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 main {
@@ -46,7 +47,7 @@ html {
     min-height: 100%;
   }
   body {
-    padding-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 60px; /* Margin bottom by footer height */
   }
   .footer {
     position: absolute;
