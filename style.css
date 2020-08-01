@@ -40,6 +40,10 @@ iframe {
     margin: 2rem 0rem 1rem 0rem;
 }
 
+em {
+    font-style: italic;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
