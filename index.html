@@ -1,99 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <title>Olga Koldachenko</title>
-</head>
-<body>
-    <a href="#main" id="skipnav">Skip navigation.</a>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <!--a class="navbar-brand" href="#">Navbar</a-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="stories.html">Short Stories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/okold">GitHub</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-    <main id="main" class="container">
-        <h1>Olga Koldachenko</h1>
-        <div class="row">
-            <article id="blurb" class="col-12">
-                <h2>About Me</h2>
-                <p>My name is Olga, and I'm a student living in Calgary, Alberta, studying Computer Science at Mount Royal University.</p>
-                <p>Before finding my passion in technology, I spent a semester at the Alberta University of the Arts (back when it was still ACAD). I most fondly remember drawing class, where we learned to calculate depth and light, and one thing the teacher said had stuck: some of the best artists in history were also the best mathematicians. I didn't end up drawing for a living, but I still discovered art in bits, logic, and the flow of words on a screen.</p>
-            </article>
-            <section id="education" class="col-sm-12 col-md-9">
-                <h2>Education and Training</h2>
-                <table class="table">
-                    <tr>
-                        <th>Role</th>
-                        <th>Location</th>
-                        <th>Date</th>
-                    </tr>
-                    <tr>
-                        <td>Tech Specialist</td>
-                        <td>London Drugs</td>
-                        <td>May 2015 - Present</td>
-                    </tr>
-                    <tr>
-                        <td>Certified Apple Technician</td>
-                        <td>London Drugs</td>
-                        <td>October 2017 - Present</td>
-                    </tr>
-                    <tr>
-                        <td>Student, Bachelor of Computer Science</td>
-                        <td>Mount Royal University</td>
-                        <td>September 2018 - Present</td>
-                    </tr>
-                </table>
-            </section>
-            <section id="languages" class="col-sm-12 col-md-3 container">
-                <h2>Languages</h2>
-                <ul class="list-unstyled row">
-                    <li class="col-6">Java</li>
-                    <li class="col-6">C/C++</li>
-                    <li class="col-6">Python</li>
-                    <li class="col-6">Prolog</li>
-                    <li class="col-6">Haskell</li>
-                    <li class="col-6">Assembly</li>
-                </ul>
-            </section>
-            <section id="video" class="col-sm-12">
-                <h2 class="text-center">Obligatory Cat Video</h2>
-                <!--Copied from Youtube video embed link width="560" height="315"-->
-                <figure class="d-flex flex-column align-items-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Uf9DADAMrzM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <figcaption>His name is Saffron</figcaption>
-                </figure>
-            </section>
-            <p id="return"><a href="#">Return to top.</a></p>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <span class="text-muted">Copyright &#169; 2020 Olga Koldachenko</span>
-        </div>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+        <title>Olga Koldachenko</title>
+    </head>
+    <body>
+        <a href="#main" id="skipnav">Skip navigation.</a>
+        <header>
+            <div id="hamburger">-_-</div>
+            <ul id="nav">
+                <li>Home</li>
+                <li>GitHub</li>
+                <li>Nonfiction</li>
+                <li>Email</li>
+            </ul>
+        </header>
+        <main id="main">
+            <div id="banner"></div>
+            <h1>Hey There!</h1>
+            <div id="info">
+                <p>Welcome to my site. My name is Olga Koldachenko, and I'm a Computer Science student at Mount Royal University. (The cat's name is Saffron!) This website is currently under construction. If you've found yourself here, then congrats, I guess?</p>
+                <p>If you're interested in my code, you can find my GitHub profile <a href="https://github.com/okold">here</a>.</p>
+                <p>If you'd like to read my creative writing, follow <a href="stories.html">this</a> link.</p>    
+            </div>    
+            <footer>
+                © 2021 Olga Koldachenko
+            </footer>
+        </main>
+    </body>
 </html>
