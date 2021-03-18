@@ -92,7 +92,7 @@ p {
 
 footer {
     margin: auto auto 0 auto;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     width: fit-content;
     align-self: flex-end;
     color: var(--dark);
@@ -101,8 +101,7 @@ footer {
     flex-direction: column;
 }
 
-footer p {
+footer * {
     padding: 0;
     margin: auto;
 }
-
