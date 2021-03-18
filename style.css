@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--light);
     display: flex;
     flex-direction: column;
@@ -72,19 +72,71 @@ main {
     margin: 0 auto;
     background-color: white;
     flex-grow: 2;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
-h1 {
+/*******************************************************************************
+* GENERAL TEXT STYLES
+*/
+
+h1, h2, th {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 1.5rem auto;
+    margin: 2rem auto 1.5rem auto;
     text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: -1.2rem auto 1rem auto;
+}
+
+th {
+    font-size: 1.2rem;
 }
 
 p {
     padding-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+/*******************************************************************************
+* TABLE STYLES
+*/
+
+table {
+    table-layout: auto;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--light);
+}
+
+td {
+    padding: 1rem;
+}
+
+thead tr th {
+    border-bottom: solid 2px black;
+}
+
+#story_list tr td:first-child {
+    width: 20%;
+    text-align: center;
+}
+
+#story_list tr td:nth-child(3) {
+    width: 10%;
+    text-align: center;
+}
+
+
+
+#author, #return {
+    text-align: center;
 }
 
 #info {
@@ -97,9 +149,12 @@ footer {
     width: fit-content;
     align-self: flex-end;
     color: var(--dark);
-    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
+}
+
+footer * {
+    font-size: 0.9rem;
 }
 
 footer * {
