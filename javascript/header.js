@@ -5,8 +5,8 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
     let links = [
         {href: "index.html", text: "Home"},
-        {href: "https://github.com/okold/", text: "GitHub"},
         {href: "stories.html", text: "Stories"},
+        {href: "https://github.com/okold/", text: "GitHub"},
         {href: "mailto: okold525@mtroyal.ca", text: "Email"}
     ];
 
