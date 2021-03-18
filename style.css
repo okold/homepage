@@ -170,3 +170,21 @@ footer * {
       width: 100%;
     }
 }
+
+@media (min-resolution: 150dpi) {
+    :root {
+        font-size: 2rem;
+    }
+    #banner {
+        height: 400px;
+    }
+    header {
+        margin-bottom: 0;
+    }
+    main {
+      width: 100%;
+    }
+    table {
+        margin: 0;
+    }
+}
