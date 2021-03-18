@@ -9,6 +9,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 a {
@@ -32,6 +36,7 @@ header {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 #nav {
@@ -65,14 +70,8 @@ main {
     width: 900px;
     margin: 0 auto;
     background-color: white;
-    height: calc(100vh - 50px);
+    flex-grow: 2;
 }
-
-@media only screen and (max-width: 900px) {
-    main {
-      width: 100%;
-    }
-  }
 
 h1 {
     font-size: 2rem;
@@ -104,4 +103,13 @@ footer {
 footer * {
     padding: 0;
     margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        margin-bottom: 0;
+    }
+    main {
+      width: 100%;
+    }
 }
