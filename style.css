@@ -1,7 +1,8 @@
 :root {
     --darker: rgb(0, 0, 0);
     --dark: rgb(99, 99, 99);
-    --light: rgb(233, 233, 233);
+    --light: rgb(219, 219, 219);
+    --lighter: rgb(241, 241, 241);
     --nav: rgb(255, 70, 45);
     --link: rgb(32, 107, 194);
 }
@@ -108,11 +109,11 @@ p {
 
 table {
     table-layout: auto;
-    margin: 1.5rem 1.5rem 0 1.5rem;
+    margin-top: 1.5rem;
 }
 
 table tr:nth-child(even) {
-    background-color: var(--light);
+    background-color: var(--lighter);
 }
 
 td {
@@ -132,7 +133,6 @@ thead tr th {
     width: 10%;
     text-align: center;
 }
-
 
 
 #author, #return {
@@ -162,11 +162,24 @@ footer * {
     margin: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px), (min-resolution: 150dpi) {
     header {
         margin-bottom: 0;
     }
     main {
       width: 100%;
     }
+}
+
+@media (min-resolution: 150dpi) {
+    :root {
+        font-size: 2rem;
+    }
+}
+
+@media (min-resolution: 200dpi) {
+    thead tr th {
+        border-bottom: solid 4px black;
+    }
+    
 }
