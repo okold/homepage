@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
     nav.id = "nav";
 
     let links = [
-        {href: "index.html", text: "Home"},
+        {href: "index.php", text: "Home"},
         {href: "stories.html", text: "Stories"},
         {href: "https://github.com/okold/", text: "GitHub"},
         {href: "mailto: okold525@mtroyal.ca", text: "Email"}
