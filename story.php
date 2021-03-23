@@ -1,4 +1,3 @@
-<?php include_once "storylist.php"?>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -21,9 +20,9 @@
         <title>Creative Writing</title>
     </head>
     <body>
-    <?php include "includes/header.inc.php";?>
+    <?php include "includes/header.inc.php"; ?>
         <main id="main">
-        <?php include_once "storylist.php";
+        <?php include_once "includes/storylist.inc.php";
 
             if (isset($_GET["id"])) {
                 $id = $_GET["id"];

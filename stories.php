@@ -20,7 +20,7 @@
                         </tr>
                     </thead>
                     <tbody id="story_list">
-                        <?php include "storylist.php";
+                        <?php include_once "includes/storylist.inc.php";
                             
                             foreach ($storylist as $id => $data) {
                                 echo "<tr>" . 
