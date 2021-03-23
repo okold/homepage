@@ -76,6 +76,10 @@ main {
     padding-bottom: 1.5rem;
 }
 
+#return {
+    padding-left: 2rem;
+}
+
 /*******************************************************************************
 * GENERAL TEXT STYLES
 */

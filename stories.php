@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -21,16 +20,17 @@
                         </tr>
                     </thead>
                     <tbody id="story_list">
-                        <tr>
-                            <td><a href="the_fixer.html">The Fixer</a></td>
-                            <td>Devon lands on a desolate planet in search of a mechanic. My semester project for CRWT 1105 at Mount Royal University in Fall 2019.</td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">A Dummy</a></td>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur neque tenetur odit impedit iste a ex expedita quis mollitia dolorem. Officia et, earum blanditiis deserunt ex explicabo delectus beatae sit.</td>
-                            <td>2021</td>
-                        </tr>
+                        <?php include "storylist.php";
+                            
+                            foreach ($storylist as $id => $data) {
+                                echo "<tr>" . 
+                                    "<td><a href='story.php?id=" . $id . "'>" . $data["title"] . "</a></td>" . 
+                                    "<td><p>" . $data["desc"] . "</p>" . 
+                                    "<p>Warnings: " . $data["warnings"] . "</p></td>" .
+                                    "<td>" . $data["year"] . "</td>" .
+                                "</tr>";
+                            }
+                        ?>
                     </tbody>
                 </table>
             </section>
