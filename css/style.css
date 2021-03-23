@@ -58,7 +58,7 @@ header {
 }
 
 #banner {
-    background-image: url("cat.jpg");
+    background-image: url("../img/saffron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
