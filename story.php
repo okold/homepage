@@ -28,11 +28,11 @@
             if (isset($_GET["id"])) {
                 $id = $_GET["id"];
 
-                include "stories/". $id . ".php";
+                include "stories/". $id . ".html";
             }
         ?>
         <p><a href='#' id="return">Return to top</a></p>
         </main>
-        <?php include "includes/footer.inc.php";?>
+        <?php include "includes/footer.inc.html";?>
     </body>
 </html>

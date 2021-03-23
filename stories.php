@@ -35,6 +35,6 @@
                 </table>
             </section>
         </main>
-        <?php include "includes/footer.inc.php";?>
+        <?php include "includes/footer.inc.html";?>
     </body>
 </html>

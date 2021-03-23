@@ -17,6 +17,6 @@
                 <p>Sometimes, I write things. You can view my code or my creative writing by clicking the links above.</p>
             </div>    
         </main>
-        <?php include "includes/footer.inc.php";?>
+        <?php include "includes/footer.inc.html";?>
     </body>
 </html>
