@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-        <title>The Fixer</title>
-    </head>
-    <body>
-        <a href="#main" id="skipnav">Skip navigation.</a>
-        <header><script src="javascript/header.js"></script></header>
-        <main id="main" class="container">
-            <h1>The Fixer</h1>
+<?php
+    echo    '<h1>The Fixer</h1>
             <h2>Olga Koldachenko</h2>
             <div id="info">
                 <p>I engaged the shuttle’s thrusters, feeling gravity press down upon me as I landed upon Lobo 10-13. I leaned back in my seat and took in the landscape framed by the windshield. I’d landed behind a concrete garage with a prefab housing unit attached to its side. Surrounding it was nothing but barren wasteland, broken down the middle by a single road leading to the planet’s capital. Hovering above the cityscape down the hill was an enormous saucer, casting its dark shadow over the populace. The carrier arrived once every two standard years, the United Galactic Republic’s reminder that this was not, in fact, an isolated colony.</p>
@@ -232,9 +219,5 @@
                 <p>Sierra, eyes wide with horror, then hate.</p>
                 
                 <p>A rifle in her hands.</p>
-            </div>
-            <p id="return"><a href="#">Return to top.</a></p>
-        </main>
-    <footer><script src="javascript/footer.js"></script></footer>
-</body>
-</html>
+            </div>';
+?>

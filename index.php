@@ -9,8 +9,7 @@
         <title>Olga Koldachenko</title>
     </head>
     <body>
-        <a href="#main" id="skipnav">Skip navigation.</a>
-        <header><script src="javascript/header.js"></script></header>
+        <?php include "includes/header.inc.php";?>
         <main id="main">
             <div id="banner"></div>
             <h1>Hello There!</h1>
@@ -19,6 +18,6 @@
                 <p>Sometimes, I write things. You can view my code or my creative writing by clicking the links above.</p>
             </div>    
         </main>
-        <footer><script src="javascript/footer.js"></script></footer>
+        <?php include "includes/footer.inc.php";?>
     </body>
 </html>

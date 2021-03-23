@@ -9,8 +9,7 @@
         <title>Creative Writing</title>
     </head>
     <body>
-        <a href="#main" id="skipnav">Skip navigation.</a>
-        <header><script src="javascript/header.js"></script></header>
+        <?php include "includes/header.inc.php";?>
         <main id="main">
             <h1>Short Stories</h1>
                 <table>
@@ -36,6 +35,6 @@
                 </table>
             </section>
         </main>
-        <footer><script src="javascript/footer.js"></script></footer>
+        <?php include "includes/footer.inc.php";?>
     </body>
 </html>
